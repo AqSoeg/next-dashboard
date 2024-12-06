@@ -16,6 +16,7 @@ export type Customer = {
   image_url: string;
 };
 
+// This is the type for an invoice
 export type Invoice = {
   id: string;
   customer_id: string;
